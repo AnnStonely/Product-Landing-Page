@@ -1,0 +1,41 @@
+#main {
+  background-color: #BCCEE4;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 50px;
+}
+
+#about{
+  padding: 100px 25px;
+  font-size: 12;
+}
+#products {
+font-size: 25px;
+}
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 25px;
+  
+}
+
+#nav-bar {
+ position: fixed;
+top: 0px;
+right: 0px;
+}
+#video{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 600px;
+}
+
+@media only screen and (max-width: 600px) {
+  #video {
+    max-width:380px;
+  }}
